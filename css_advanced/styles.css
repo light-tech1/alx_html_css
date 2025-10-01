@@ -188,14 +188,13 @@ margin-left: 190px;
   height: 30px;
 }
 
-/* ✅ Fix: ONLY stars go horizontal */
 .stars {
   display: flex;
-  gap: 4px; /* spacing between stars */
+  gap: 4px;
   margin-top: 0.5rem;
 }
 
 .stars i {
   color: #c86dd7;
-  display: inline-block; /* ensures row layout */
+  display: inline-block; 
 }
