@@ -142,3 +142,60 @@ margin-left: 190px;
     font-style: italic;
     font-size: 22px;
 }
+
+.tutorials {
+  background: #fff;
+  color: #333;
+  padding: 4rem 5rem;
+  text-align: center;
+}
+
+.tutorials h2 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.tutorials > div {
+  display: inline-block;
+  width: 255px;
+  height: 154px;
+  margin: 0 1rem 2rem;
+  text-align: left;
+}
+
+.tutorials img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.tutorials h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tutorials h4 {
+  color: #C271FF;
+  margin-top: 0;
+  margin-right: auto;
+}
+
+.tutorials p {
+  font-size: 14px;
+}
+
+.quote {
+ width: 30px;
+  height: 30px;
+}
+
+/* ✅ Fix: ONLY stars go horizontal */
+.stars {
+  display: flex;
+  gap: 4px; /* spacing between stars */
+  margin-top: 0.5rem;
+}
+
+.stars i {
+  color: #c86dd7;
+  display: inline-block; /* ensures row layout */
+}
