@@ -11,13 +11,12 @@ body {
   background: #000;
 }
 
-
 .header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.5rem 4rem;
+  padding: 24px 64px;
   z-index: 100;
 }
 
@@ -29,12 +28,12 @@ body {
 
 .header nav img {
   height: 30px;
-  margin-right: 0.5rem;
+  margin-right: 8px;
 }
 
 .header nav span {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 12px;
   margin-right: auto;
   color: white;
 }
@@ -42,7 +41,7 @@ body {
 .header nav ul {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .header nav ul li a {
@@ -59,7 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 6rem;
+  padding-top: 96px;
 }
 
 .main_part h1 {
@@ -69,12 +68,12 @@ body {
 }
 
 .main_part span {
-  margin: 1rem;
+  margin: 16px;
   letter-spacing: 2px;
 }
 
 .main_part button {
-  margin-top: 2rem;
+  margin-top: 32px;
   padding: 0.5rem 0.5rem;
   border: none;
   border-radius: 25px;
@@ -86,14 +85,14 @@ body {
 
 .main_part h2 {
   margin-top: 180px;
-  font-size: 1.8rem;
+  font-size: 32px;
   color: #f0eef3;
 }
 
 .main_part > div:last-child > div {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 32px;
   margin-top: 60px;
 }
 
@@ -106,7 +105,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .highlight {
@@ -119,7 +118,7 @@ body {
   height: 392px;
   align-items: center;
   background: #a259ff;
-  padding: 2rem 5rem;
+  padding: 32px 80px;
   gap: 4rem;
 }
 
@@ -146,26 +145,26 @@ margin-left: 190px;
 .tutorials {
   background: #fff;
   color: #333;
-  padding: 4rem 5rem;
+  padding: 64px 80px;
   text-align: center;
 }
 
 .tutorials h2 {
-  margin-bottom: 3rem;
-  font-size: 2rem;
+  margin-bottom: 48px;
+  font-size: 32px;
 }
 
 .tutorials > div {
   display: inline-block;
   width: 255px;
   height: 154px;
-  margin: 0 1rem 2rem;
+  margin: 0 16px 32px;
   text-align: left;
 }
 
 .tutorials img {
   border-radius: 8px;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .tutorial-thumb {
@@ -191,8 +190,8 @@ margin-left: 190px;
 }
 
 .tutorials h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  font-size: 16px;
+  margin-bottom: 0.8px;
 }
 
 .tutorials h4 {
@@ -226,7 +225,7 @@ margin-left: 190px;
 .stars {
   display: flex;
   gap: 4px;
-  margin-top: 0.5rem;
+  margin-top: 0.8px;
 }
 
 .stars i {
@@ -245,12 +244,12 @@ margin-left: 190px;
 .membership {
   background: #0b0d17;
   text-align: center;
-  padding: 4rem 5rem;
+  padding: 64px 80px;
 }
 
 .membership h2 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
+  margin-bottom: 32px;
+  font-size: 32px;
   color: #fdfdfd;
 }
 
@@ -265,17 +264,17 @@ margin-left: 190px;
 .membership > div {
   display: inline-block;
   width: 200px;
-  margin: 1rem;
+  margin: 16px;
 }
 
 .membership img {
   width: 40px;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .membership button {
-  margin-top: 2rem;
-  padding: 1rem 2rem;
+  margin-top: 32px;
+  padding: 16px 32px;
   border: none;
   border-radius: 25px;
   background: #c86dd7;
@@ -318,4 +317,54 @@ margin-left: 190px;
   color: #666;
 }
 
+footer {
+  background-color: #0a1a2b; /* dark blue background */
+  color: #fff;
+  padding: 40px 80px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer img {
+  width: 36.39px;
+  height: 29.46px;
+}
+
+.footer span {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: auto;
+  color: white;
+}
+
+.footer i {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footer i:hover {
+  color: #c271ff; 
+}
+
+.footer p {
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+}
 
